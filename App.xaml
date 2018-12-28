@@ -1,0 +1,10 @@
+﻿<Application x:Class="WpfExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfExample"
+             xmlns:viewModel="clr-namespace:WpfExample.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <viewModel:ViewModelRoot x:Key="viewModel"/>
+    </Application.Resources>
+</Application>
